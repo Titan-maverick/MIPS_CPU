@@ -1,0 +1,362 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU
+vALU
+Z1 !s110 1736308918
+!i10b 1
+!s100 9`V8:lIL?[60lk?Sn@JU=2
+I1Vc3N[d;fn:EB5nKE5h=z3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1734694058
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v
+L0 2
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1736308918.187000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU
+n@a@l@u
+vCLKmode
+R1
+!i10b 1
+!s100 GBAl`3NIm;9>FKhF[E4jA1
+IoOf?UB:A<KMnLAbA=hZ?11
+R2
+R0
+w1734681353
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308918.300000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v|
+!i113 1
+R4
+R5
+n@c@l@kmode
+vClockDivider
+Z6 !s110 1736308916
+!i10b 1
+!s100 J?GDK@`ZFVH^CXK5DETc_1
+IImHSJWFHZN0P<XA18[ZNl3
+R2
+R0
+w1734698724
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308916.865000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v|
+!i113 1
+R4
+R5
+n@clock@divider
+vControlUnit
+R1
+!i10b 1
+!s100 _WOEh>H1RKIC28QECg30k0
+I?IzZ3e;_>_;GX34V9HG;n3
+R2
+R0
+w1734696238
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308918.058000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v|
+!i113 1
+R4
+R5
+n@control@unit
+vDataMemory
+Z7 !s110 1736308917
+!i10b 1
+!s100 GCMQoZ43d;j8oR<>T;_2K1
+IPC?9XMGFebFg59MP3VHAi1
+R2
+R0
+Z8 w1734680535
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.209000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v|
+!i113 1
+R4
+R5
+n@data@memory
+vDisplay
+R7
+!i10b 1
+!s100 B43h0ZegnUfAe:5RUJaIz3
+IOJE7h>bHYH>JnPnLjmWYX3
+R2
+R0
+w1734681480
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.095000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v|
+!i113 1
+R4
+R5
+n@display
+vInputSignal
+R6
+!i10b 1
+!s100 53U2aKAdRQaa?Z]Wz^6O@0
+I`ONK2H[5PLKWdVGE7]a>F2
+R2
+R0
+w1734681483
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308916.747000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v|
+!i113 1
+R4
+R5
+n@input@signal
+vInstructionDecoder
+R7
+!i10b 1
+!s100 f>IGE>_NHCl2zOdS?5mK=2
+I4Fe:G[nbKdc[Un?@k1ncL2
+R2
+R0
+w1734596242
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.327000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v|
+!i113 1
+R4
+R5
+n@instruction@decoder
+vInstructionMemory
+R7
+!i10b 1
+!s100 @9CO``SDk0DH;oL9K__Xj0
+I:oeW8z69]S^EaDDnM8HTi3
+R2
+R0
+w1734688291
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.441000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v|
+!i113 1
+R4
+R5
+n@instruction@memory
+vMultiCycleCPU
+R7
+!i10b 1
+!s100 2lccC3Z18Y43Vk8Hn7mXY1
+ICL_67KW7SdzfI]Fj1HakK1
+R2
+R0
+w1734686852
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736308917.557000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v|
+!i113 1
+R4
+R5
+n@multi@cycle@c@p@u
+vMultiCycleCPU_vlg_tst
+R1
+!i10b 1
+!s100 4o`EYa[CfK6h0][K?LWVd2
+IUjmN?l6NKXeOFJ93JlZRN1
+R2
+R0
+w1734694716
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308918.418000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim
+n@multi@cycle@c@p@u_vlg_tst
+vPC
+R7
+!i10b 1
+!s100 ?XckZ5BIDg[RIG[9Ceoa?3
+IGHbnghV0gaaNN<[U=aM]93
+R2
+R0
+w1734681482
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.911000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v|
+!i113 1
+R4
+R5
+n@p@c
+vPCAddr
+R6
+!i10b 1
+!s100 oKHhMN:j?2Q7QO7X8]EN]1
+Il47f;L;aJCHmHz3YnHW200
+R2
+R0
+w1734681481
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308916.980000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v|
+!i113 1
+R4
+R5
+n@p@c@addr
+vRegisterFile
+R7
+!i10b 1
+!s100 3J;Mo[dnBdG<c79cR8i061
+IfY3<W@cT>3[a7mA:=>6Z]1
+R2
+R0
+w1734594301
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.789000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v|
+!i113 1
+R4
+R5
+n@register@file
+vROM1P
+R6
+!i10b 1
+!s100 j=0KNHFbdDc181Ti[LKkK0
+I]38NMPO0`G5<1>Jh89EmS0
+R2
+R0
+w1734686859
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736308916.589000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v|
+!i113 1
+R4
+R5
+n@r@o@m1@p
+vSignZeroExtend
+R7
+!i10b 1
+!s100 @dI8Dzo7cDb0KE?]man^:0
+I6a[`:igV_bgJ?zaLd1P[i1
+R2
+R0
+R8
+8E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v
+FE:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1736308917.672000
+!s107 E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU|E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v|
+!i113 1
+R4
+R5
+n@sign@zero@extend

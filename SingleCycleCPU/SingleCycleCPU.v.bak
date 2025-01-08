@@ -1,0 +1,207 @@
+module Cpu(
+	input wire	clk,
+	input wire reset,
+	input wire myreset,
+	input [7:0] RandomNumber,
+	//input [31:0] m,
+	output SYNTHESIZED_WIRE_20,
+	output [7:0] OutputRandomNumber,
+	output [31:0] outputNumber,
+	output [31:0] result,
+	output [31:0] Routputdata1,
+	output [31:0] imm,
+	output [15:0] imme,
+	output [31:0] minst,
+	output Pcwre,
+	output [31:0] Mout,
+	output [4:0] Odata2,//寄存器 rt或者rd
+	output [31:0] OData6,//是运算的结果 还是从存储器中取得结果放入寄存器中
+	output [31:0] OData1,// 立即数扩展 还是 rt
+	output [4:0] ALUOp,	
+	output [5:0] func,
+	output [5:0] op,
+	output [31:0] outputReg3,
+	
+	output [6:0] out1,
+	output [6:0] out2,
+	output [6:0] out3,
+	output [6:0] out4,
+	output [6:0] out5,
+	output [6:0] out6,
+	output [6:0] out7,
+	output [6:0] out8,
+	
+	output	[31:0] SYNTHESIZED_WIRE_37
+);
+//wire	[5:0] func;
+//wire	[5:0] op;	
+wire	[31:0] jc;
+wire	SYNTHESIZED_WIRE_2;
+
+//wire	[31:0] SYNTHESIZED_WIRE_37;
+wire	[31:0] SYNTHESIZED_WIRE_4;
+wire	SYNTHESIZED_WIRE_5;
+wire	[31:0] SYNTHESIZED_WIRE_38;
+//wire	[31:0] imm;
+wire	SYNTHESIZED_WIRE_8;
+wire	[4:0] SYNTHESIZED_WIRE_40;
+wire	[4:0] SYNTHESIZED_WIRE_10;
+//wire	[15:0] imme;
+//wire	[4:0] ALUOp;
+//wire	[31:0] Routputdata1;
+//wire	[31:0] OData1;
+wire	[4:0] SYNTHESIZED_WIRE_15;
+wire	SYNTHESIZED_WIRE_16;
+wire	SYNTHESIZED_WIRE_17;
+wire	[31:0] SYNTHESIZED_WIRE_41;
+//wire	SYNTHESIZED_WIRE_20;
+//wire	[31:0]Mout;
+//wire	[31:0] minst;
+//wire	Pcwre;
+wire	[31:0] SYNTHESIZED_WIRE_26;
+wire	SYNTHESIZED_WIRE_27;
+wire	[4:0] SYNTHESIZED_WIRE_28;
+//wire	[4:0] Odata;
+//wire	[31:0] OData;
+wire	[31:0] SYNTHESIZED_WIRE_33;
+wire	SYNTHESIZED_WIRE_34;
+wire	SYNTHESIZED_WIRE_35;
+
+
+
+
+
+Result Bresult(
+	 .result(outputReg3),
+	 .out1(out1),
+	 .out2(out2),
+	 .out3(out3),
+	 .out4(out4),
+	 .out5(out5),
+	 .out6(out6),
+	 .out7(out7),
+	 .out8(out8)
+);
+UnitControl	b2v_inst(
+	.func(func),
+	.op(op),
+	
+	.Branch(SYNTHESIZED_WIRE_35),
+	.Memwre(SYNTHESIZED_WIRE_16),
+	.Memread(SYNTHESIZED_WIRE_17),
+	.Regwre(SYNTHESIZED_WIRE_27),
+	.ALUsrc(SYNTHESIZED_WIRE_5),
+	.RegDst(SYNTHESIZED_WIRE_8),
+	.MemtoReg(SYNTHESIZED_WIRE_20),
+	.Pcwre(Pcwre),
+	.ALUOp(ALUOp));
+
+
+Mux2_1	b2v_inst1(
+	.sign(SYNTHESIZED_WIRE_2),
+	.DataA(SYNTHESIZED_WIRE_4),
+	.DataB(SYNTHESIZED_WIRE_37),
+	.OData4(SYNTHESIZED_WIRE_26));
+
+
+Mux2_1	b2v_inst10(
+	.sign(SYNTHESIZED_WIRE_5),
+	.DataA(SYNTHESIZED_WIRE_38),
+	.DataB(imm),
+	.OData4(OData1));
+
+
+Mux2_1_5	b2v_inst11(
+	.sign(SYNTHESIZED_WIRE_8),
+	.dataA(SYNTHESIZED_WIRE_40),
+	.dataB(SYNTHESIZED_WIRE_10),
+	.Odata(Odata2));
+
+
+Extend	b2v_inst12(
+	.imme(imme),
+	.extendImme(imm));
+
+
+MyALU	b2v_inst14(
+	.ALUOp(ALUOp),
+	.ReadData1(Routputdata1),
+	.ReadData2(OData1),
+	.sa(SYNTHESIZED_WIRE_15),
+	.zero(SYNTHESIZED_WIRE_34),
+	.result(result));
+
+
+DataMem	b2v_inst16(
+	.Wren(SYNTHESIZED_WIRE_16),
+	.Read(SYNTHESIZED_WIRE_17),
+	.DAddr(result),
+	.Data(SYNTHESIZED_WIRE_38),
+	.Mout(Mout));
+
+
+Mux2_1	b2v_inst17(
+	.sign(SYNTHESIZED_WIRE_20),
+	.DataA(outputNumber),
+	.DataB(result),
+	.OData4(OData6));
+
+
+InstructionCut	b2v_inst2(
+	.myreset(myreset),
+	.Inst(minst),
+	.FUNC(func),
+	.IMME(imme),
+	.OP(op),
+	.RD(SYNTHESIZED_WIRE_10),
+	.RS(SYNTHESIZED_WIRE_28),
+	.RT(SYNTHESIZED_WIRE_40),
+	.SHMAT(SYNTHESIZED_WIRE_15));
+
+InstructionMem	b2v_inst3(
+	.Addr(SYNTHESIZED_WIRE_37),
+	.Iout(minst));
+
+inputNumber	in1(
+	.clk(clk),
+	.RandomNumber(RandomNumber),
+	.OutputRandomNumber(OutputRandomNumber)
+);
+
+inputextend inex(
+	.RandomNumber(OutputRandomNumber),
+	.outputNumber(outputNumber)
+);
+
+Pc	b2v_inst4(
+	.clk(clk),
+	.reset(reset),
+	.Pcwre(Pcwre),
+	.nextPc(SYNTHESIZED_WIRE_26),
+	.curPc(SYNTHESIZED_WIRE_37));
+
+RegFile	b2v_inst5(
+	.myreset(myreset),
+	.clk(clk),
+	.Regwre(SYNTHESIZED_WIRE_27),
+	.Regs(SYNTHESIZED_WIRE_28),
+	.Regt(SYNTHESIZED_WIRE_40),
+	.Regw(Odata2),
+	.wdata(OData6),
+	.outputReg1(Routputdata1),
+	.outputReg2(SYNTHESIZED_WIRE_38),
+	.outputReg3(outputReg3));
+
+Add	b2v_inst6(
+	.DataA(SYNTHESIZED_WIRE_37),
+	.DataB(SYNTHESIZED_WIRE_33),
+	.sum(SYNTHESIZED_WIRE_4));
+
+assign	SYNTHESIZED_WIRE_2 = SYNTHESIZED_WIRE_34 & SYNTHESIZED_WIRE_35;
+
+Left	b2v_inst9(
+	.datain(imm),
+	.dataout(SYNTHESIZED_WIRE_33));
+
+
+endmodule

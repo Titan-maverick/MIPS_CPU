@@ -1,0 +1,384 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Project/QuartusProject/test/simulation/modelsim
+vAdd
+Z1 !s110 1734764875
+!i10b 1
+!s100 _k@TX[@ljTh=RL>Bd0gaV3
+I?Fc`NX@=NO>6;>WzFN]Ui3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1732440476
+8E:/Project/QuartusProject/test/Add.v
+FE:/Project/QuartusProject/test/Add.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1734764875.912000
+!s107 E:/Project/QuartusProject/test/Add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/Add.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/Project/QuartusProject/test
+n@add
+vControlUnit
+Z6 !s110 1734764874
+!i10b 1
+!s100 _11nJ;4T@0Lba2mK]gn?L2
+ICNJg@VS0_oXdDTig90cUC3
+R2
+R0
+w1732445608
+8E:/Project/QuartusProject/test/ControlUnit.v
+FE:/Project/QuartusProject/test/ControlUnit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.910000
+!s107 E:/Project/QuartusProject/test/ControlUnit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/ControlUnit.v|
+!i113 1
+R4
+R5
+n@control@unit
+vDataMem
+R1
+!i10b 1
+!s100 CJ1ZeDZkmFB3]fJk:D3iX3
+IQ:dK5:]jB_RP_R[hL5QXG0
+R2
+R0
+w1732440477
+8E:/Project/QuartusProject/test/DataMem.v
+FE:/Project/QuartusProject/test/DataMem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.788000
+!s107 E:/Project/QuartusProject/test/DataMem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/DataMem.v|
+!i113 1
+R4
+R5
+n@data@mem
+vEnterExtend
+R6
+!i10b 1
+!s100 Q;Tj^jSE99QJn1<QoSoE[3
+IQ;6d=]I=OMD7OiZQ6bX3h3
+R2
+R0
+w1732447051
+8E:/Project/QuartusProject/test/EnterExtend.v
+FE:/Project/QuartusProject/test/EnterExtend.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.001000
+!s107 E:/Project/QuartusProject/test/EnterExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/EnterExtend.v|
+!i113 1
+R4
+R5
+n@enter@extend
+vEnterInteger
+R6
+!i10b 1
+!s100 YfIV0Z?I<h9<Qi3h<NH__3
+IMH<12bK4P=a7Mi7=JESk13
+R2
+R0
+w1732447043
+8E:/Project/QuartusProject/test/EnterInteger.v
+FE:/Project/QuartusProject/test/EnterInteger.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.154000
+!s107 E:/Project/QuartusProject/test/EnterInteger.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/EnterInteger.v|
+!i113 1
+R4
+R5
+n@enter@integer
+vExtend
+R1
+!i10b 1
+!s100 T<N;>OY7zNBE=z1eM2DN=3
+I]^j3dkKjof3_:hP?0dVQ:0
+R2
+R0
+w1732440459
+8E:/Project/QuartusProject/test/Extend.v
+FE:/Project/QuartusProject/test/Extend.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.665000
+!s107 E:/Project/QuartusProject/test/Extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/Extend.v|
+!i113 1
+R4
+R5
+n@extend
+vInstructionCut
+R1
+!i10b 1
+!s100 G=0N?[4d_ei8GOGOmdoX72
+INd1?om=NDme4k@2?S9Rjj2
+R2
+R0
+w1732440484
+8E:/Project/QuartusProject/test/InstructionCut.v
+FE:/Project/QuartusProject/test/InstructionCut.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.539000
+!s107 E:/Project/QuartusProject/test/InstructionCut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/InstructionCut.v|
+!i113 1
+R4
+R5
+n@instruction@cut
+vInstructionMem
+R1
+!i10b 1
+!s100 KfNeVd53eMOh]^l^2faA]2
+IQTFSQ3FiF1YeP6@;BZObC0
+R2
+R0
+w1732440483
+8E:/Project/QuartusProject/test/InstructionMem.v
+FE:/Project/QuartusProject/test/InstructionMem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.411000
+!s107 E:/Project/QuartusProject/test/InstructionMem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/InstructionMem.v|
+!i113 1
+R4
+R5
+n@instruction@mem
+vMux2to1
+R6
+!i10b 1
+!s100 @0NLbkWc^N`E_>2JfQ[]g2
+IMEJWiC[[lgKU=^K1jKeeB3
+R2
+R0
+w1732445748
+8E:/Project/QuartusProject/test/Mux2to1.v
+FE:/Project/QuartusProject/test/Mux2to1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.662000
+!s107 E:/Project/QuartusProject/test/Mux2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/Mux2to1.v|
+!i113 1
+R4
+R5
+n@mux2to1
+vMux2to1_5
+R6
+!i10b 1
+!s100 MOSgC]JaU3dK5FdBQnSk63
+InWi0a<j4OOfAbQT_hm7Nz1
+R2
+R0
+w1732447034
+8E:/Project/QuartusProject/test/Mux2to1_5.v
+FE:/Project/QuartusProject/test/Mux2to1_5.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.537000
+!s107 E:/Project/QuartusProject/test/Mux2to1_5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/Mux2to1_5.v|
+!i113 1
+R4
+R5
+n@mux2to1_5
+vMyALU
+R1
+!i10b 1
+!s100 ]1n]oZMOLoihTFeaUmR?A3
+I3DDCOWIBL[_8EIAUWEdV;3
+R2
+R0
+w1732440482
+8E:/Project/QuartusProject/test/MyALU.v
+FE:/Project/QuartusProject/test/MyALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.285000
+!s107 E:/Project/QuartusProject/test/MyALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/MyALU.v|
+!i113 1
+R4
+R5
+n@my@a@l@u
+vmyPC
+R6
+!i10b 1
+!s100 cUZ5HeFYHVQ>NKdinQiO02
+IJ=7J>MT>>9ZCi3_U>2h5B2
+R2
+R0
+w1732447060
+8E:/Project/QuartusProject/test/myPC.v
+FE:/Project/QuartusProject/test/myPC.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.785000
+!s107 E:/Project/QuartusProject/test/myPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/myPC.v|
+!i113 1
+R4
+R5
+nmy@p@c
+vOutput
+R6
+!i10b 1
+!s100 4Qc_j?kRmb=gc?V2]@h1f2
+I^G[=fOoz28od9lZ[5O[<j3
+R2
+R0
+w1732446034
+8E:/Project/QuartusProject/test/Output.v
+FE:/Project/QuartusProject/test/Output.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.278000
+!s107 E:/Project/QuartusProject/test/Output.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/Output.v|
+!i113 1
+R4
+R5
+n@output
+vRegFile
+R1
+!i10b 1
+!s100 mDGRcG9Z3zRQU^Q75NQBU0
+IM5k1T`H2^=o3e`]^[ViD43
+R2
+R0
+w1732440481
+8E:/Project/QuartusProject/test/RegFile.v
+FE:/Project/QuartusProject/test/RegFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.160000
+!s107 E:/Project/QuartusProject/test/RegFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/RegFile.v|
+!i113 1
+R4
+R5
+n@reg@file
+vShiftLeft2
+R6
+!i10b 1
+!s100 kHlej79cl2cMFC3]DoCKb0
+I<SI[a4ImJ`iaXYGWHC_z62
+R2
+R0
+w1732445906
+8E:/Project/QuartusProject/test/ShiftLeft2.v
+FE:/Project/QuartusProject/test/ShiftLeft2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764874.413000
+!s107 E:/Project/QuartusProject/test/ShiftLeft2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/ShiftLeft2.v|
+!i113 1
+R4
+R5
+n@shift@left2
+vSingleCycleCPU
+R1
+!i10b 1
+!s100 ^bo03_i>MXX`mm0BXL1fI1
+IlIGY7>;B1Ch]OB]aYEG]82
+R2
+R0
+w1734523132
+8E:/Project/QuartusProject/test/SingleCycleCPU.v
+FE:/Project/QuartusProject/test/SingleCycleCPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1734764875.036000
+!s107 E:/Project/QuartusProject/test/SingleCycleCPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test|E:/Project/QuartusProject/test/SingleCycleCPU.v|
+!i113 1
+R4
+R5
+n@single@cycle@c@p@u
+vSingleCycleCPU_vlg_tst
+!s110 1734764876
+!i10b 1
+!s100 Mf^H]3YDE24X@1[aE2N`b1
+IP6BdA8Az]FZ?<gz?>l5^k1
+R2
+R0
+w1734523135
+8E:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt
+FE:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1734764876.038000
+!s107 E:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Project/QuartusProject/test/simulation/modelsim|E:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+E:/Project/QuartusProject/test/simulation/modelsim
+n@single@cycle@c@p@u_vlg_tst

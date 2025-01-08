@@ -1,0 +1,145 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+# Date created = 16:26:24  November 09, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Cpu_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY SingleCycleCPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:26:24  NOVEMBER 09, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ns" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH SingleCycleCPU_vlg_tst -section_id eda_simulation
+set_location_assignment PIN_AD30 -to RandomNumber[7]
+set_location_assignment PIN_AC28 -to RandomNumber[6]
+set_location_assignment PIN_V25 -to RandomNumber[5]
+set_location_assignment PIN_W25 -to RandomNumber[4]
+set_location_assignment PIN_AC30 -to RandomNumber[3]
+set_location_assignment PIN_AB28 -to RandomNumber[2]
+set_location_assignment PIN_Y27 -to RandomNumber[1]
+set_location_assignment PIN_AB30 -to RandomNumber[0]
+set_location_assignment PIN_AJ4 -to clk
+set_location_assignment PIN_AC29 -to myreset
+set_location_assignment PIN_AA30 -to reset
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_NAME SingleCycleCPU_vlg_tst -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id SingleCycleCPU_vlg_tst
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "300 ns" -section_id SingleCycleCPU_vlg_tst
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME SingleCycleCPU_vlg_tst -section_id SingleCycleCPU_vlg_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/SingleCycleCPU.vt -section_id SingleCycleCPU_vlg_tst
+set_global_assignment -name VERILOG_FILE EnterExtend.v
+set_global_assignment -name VERILOG_FILE EnterInteger.v
+set_global_assignment -name VERILOG_FILE Output.v
+set_global_assignment -name VERILOG_FILE ShiftLeft2.v
+set_global_assignment -name VERILOG_FILE Mux2to1_5.v
+set_global_assignment -name VERILOG_FILE Mux2to1.v
+set_global_assignment -name VERILOG_FILE myPC.v
+set_global_assignment -name VERILOG_FILE ControlUnit.v
+set_global_assignment -name VERILOG_FILE SingleCycleCPU.v
+set_global_assignment -name VERILOG_FILE RegFile.v
+set_global_assignment -name VERILOG_FILE MyALU.v
+set_global_assignment -name VERILOG_FILE InstructionMem.v
+set_global_assignment -name VERILOG_FILE InstructionCut.v
+set_global_assignment -name VERILOG_FILE Extend.v
+set_global_assignment -name VERILOG_FILE DataMem.v
+set_global_assignment -name VERILOG_FILE Add.v
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_location_assignment PIN_W17 -to Display1[0]
+set_location_assignment PIN_V18 -to Display1[1]
+set_location_assignment PIN_AG17 -to Display1[2]
+set_location_assignment PIN_AG16 -to Display1[3]
+set_location_assignment PIN_AH17 -to Display1[4]
+set_location_assignment PIN_AG18 -to Display1[5]
+set_location_assignment PIN_AH18 -to Display1[6]
+set_location_assignment PIN_AF16 -to Display2[0]
+set_location_assignment PIN_V16 -to Display2[1]
+set_location_assignment PIN_AE16 -to Display2[2]
+set_location_assignment PIN_AD17 -to Display2[3]
+set_location_assignment PIN_AE18 -to Display2[4]
+set_location_assignment PIN_AE17 -to Display2[5]
+set_location_assignment PIN_V17 -to Display2[6]
+set_location_assignment PIN_AA16 -to Display3[0]
+set_location_assignment PIN_AB17 -to Display3[1]
+set_location_assignment PIN_AA18 -to Display3[2]
+set_location_assignment PIN_Y17 -to Display3[3]
+set_location_assignment PIN_Y18 -to Display3[4]
+set_location_assignment PIN_AF18 -to Display3[5]
+set_location_assignment PIN_W16 -to Display3[6]
+set_location_assignment PIN_Y19 -to Display4[0]
+set_location_assignment PIN_W19 -to Display4[1]
+set_location_assignment PIN_AD19 -to Display4[2]
+set_location_assignment PIN_AA20 -to Display4[3]
+set_location_assignment PIN_AC20 -to Display4[4]
+set_location_assignment PIN_AA19 -to Display4[5]
+set_location_assignment PIN_AD20 -to Display4[6]
+set_location_assignment PIN_AD21 -to Display5[0]
+set_location_assignment PIN_AG22 -to Display5[1]
+set_location_assignment PIN_AE22 -to Display5[2]
+set_location_assignment PIN_AE23 -to Display5[3]
+set_location_assignment PIN_AG23 -to Display5[4]
+set_location_assignment PIN_AF23 -to Display5[5]
+set_location_assignment PIN_AH22 -to Display5[6]
+set_location_assignment PIN_AF21 -to Display6[0]
+set_location_assignment PIN_AG21 -to Display6[1]
+set_location_assignment PIN_AF20 -to Display6[2]
+set_location_assignment PIN_AG20 -to Display6[3]
+set_location_assignment PIN_AE19 -to Display6[4]
+set_location_assignment PIN_AF19 -to Display6[5]
+set_location_assignment PIN_AB21 -to Display6[6]
+set_location_assignment PIN_AA24 -to RegOutput[0]
+set_location_assignment PIN_AB23 -to RegOutput[1]
+set_location_assignment PIN_AC23 -to RegOutput[2]
+set_location_assignment PIN_AD24 -to RegOutput[3]
+set_location_assignment PIN_AG25 -to RegOutput[4]
+set_location_assignment PIN_AF25 -to RegOutput[5]
+set_location_assignment PIN_AE24 -to RegOutput[6]
+set_location_assignment PIN_AF24 -to RegOutput[7]
+set_location_assignment PIN_AB22 -to RegOutput[8]
+set_location_assignment PIN_AC22 -to RegOutput[9]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

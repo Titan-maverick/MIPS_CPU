@@ -1,0 +1,255 @@
+# Reading E:/xiazai/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do MultiCycleCPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying E:/xiazai/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:/xiazai/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:56 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ROM1P.v 
+# -- Compiling module ROM1P
+# 
+# Top level modules:
+# 	ROM1P
+# End time: 12:01:56 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:56 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InputSignal.v 
+# -- Compiling module InputSignal
+# 
+# Top level modules:
+# 	InputSignal
+# End time: 12:01:56 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:56 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ClockDivider.v 
+# -- Compiling module ClockDivider
+# 
+# Top level modules:
+# 	ClockDivider
+# End time: 12:01:56 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:56 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PCAddr.v 
+# -- Compiling module PCAddr
+# 
+# Top level modules:
+# 	PCAddr
+# End time: 12:01:56 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/Display.v 
+# -- Compiling module Display
+# 
+# Top level modules:
+# 	Display
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/DataMemory.v 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionDecoder.v 
+# -- Compiling module InstructionDecoder
+# 
+# Top level modules:
+# 	InstructionDecoder
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/InstructionMemory.v 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/MultiCycleCPU.v 
+# -- Compiling module MultiCycleCPU
+# 
+# Top level modules:
+# 	MultiCycleCPU
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/SignZeroExtend.v 
+# -- Compiling module SignZeroExtend
+# 
+# Top level modules:
+# 	SignZeroExtend
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/RegisterFile.v 
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:57 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/PC.v 
+# -- Compiling module PC
+# 
+# Top level modules:
+# 	PC
+# End time: 12:01:57 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:58 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v 
+# -- Compiling module ControlUnit
+# ** Warning: E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v(141): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v(183): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v(184): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v(185): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# ** Warning: E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ControlUnit.v(186): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 12:01:58 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:58 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 12:01:58 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:58 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/CLKmode.v 
+# -- Compiling module CLKmode
+# 
+# Top level modules:
+# 	CLKmode
+# End time: 12:01:58 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim {E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 12:01:58 on Jan 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim" E:/Project/GitHubProject/MIPS_CPU/MultiCycleCPU/simulation/modelsim/MultiCycleCPU.vt 
+# -- Compiling module MultiCycleCPU_vlg_tst
+# 
+# Top level modules:
+# 	MultiCycleCPU_vlg_tst
+# End time: 12:01:58 on Jan 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  MultiCycleCPU_vlg_tst
+# vsim -gui "+altera" -l msim_transcript -do "MultiCycleCPU_run_msim_rtl_verilog.do" 
+# Start time: 12:01:58 on Jan 08,2025
+# Loading work.MultiCycleCPU_vlg_tst
+# Loading work.MultiCycleCPU
+# Loading work.InputSignal
+# Loading work.Display
+# Loading work.CLKmode
+# Loading work.RegisterFile
+# Loading work.PC
+# Loading work.InstructionMemory
+# Loading work.ROM1P
+# Loading altera_mf_ver.altsyncram
+# Loading work.InstructionDecoder
+# Loading work.ClockDivider
+# Loading work.ControlUnit
+# Loading work.ALU
+# Loading work.PCAddr
+# Loading work.DataMemory
+# Loading work.SignZeroExtend
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ps
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# 0
+# 0
+# 0
+# 1
+# 0
+# End time: 12:28:19 on Jan 08,2025, Elapsed time: 0:26:21
+# Errors: 0, Warnings: 0

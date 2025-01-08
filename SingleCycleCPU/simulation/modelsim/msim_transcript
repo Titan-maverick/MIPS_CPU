@@ -1,0 +1,242 @@
+# Reading E:/xiazai/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do SingleCycleCPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying E:/xiazai/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied E:/xiazai/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/EnterExtend.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:53 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/EnterExtend.v 
+# -- Compiling module EnterExtend
+# 
+# Top level modules:
+# 	EnterExtend
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/EnterInteger.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/EnterInteger.v 
+# -- Compiling module EnterInteger
+# 
+# Top level modules:
+# 	EnterInteger
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/Output.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/Output.v 
+# -- Compiling module Output
+# 
+# Top level modules:
+# 	Output
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/ShiftLeft2.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/ShiftLeft2.v 
+# -- Compiling module ShiftLeft2
+# 
+# Top level modules:
+# 	ShiftLeft2
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/Mux2to1_5.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/Mux2to1_5.v 
+# -- Compiling module Mux2to1_5
+# 
+# Top level modules:
+# 	Mux2to1_5
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/Mux2to1.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/Mux2to1.v 
+# -- Compiling module Mux2to1
+# 
+# Top level modules:
+# 	Mux2to1
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/myPC.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/myPC.v 
+# -- Compiling module myPC
+# 
+# Top level modules:
+# 	myPC
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/ControlUnit.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:54 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/ControlUnit.v 
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# End time: 15:07:54 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/SingleCycleCPU.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/SingleCycleCPU.v 
+# -- Compiling module SingleCycleCPU
+# 
+# Top level modules:
+# 	SingleCycleCPU
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/RegFile.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/RegFile.v 
+# -- Compiling module RegFile
+# 
+# Top level modules:
+# 	RegFile
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/MyALU.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/MyALU.v 
+# -- Compiling module MyALU
+# 
+# Top level modules:
+# 	MyALU
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/InstructionMem.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/InstructionMem.v 
+# -- Compiling module InstructionMem
+# 
+# Top level modules:
+# 	InstructionMem
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/InstructionCut.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/InstructionCut.v 
+# -- Compiling module InstructionCut
+# 
+# Top level modules:
+# 	InstructionCut
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/Extend.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/Extend.v 
+# -- Compiling module Extend
+# 
+# Top level modules:
+# 	Extend
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/DataMem.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/DataMem.v 
+# -- Compiling module DataMem
+# 
+# Top level modules:
+# 	DataMem
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test {E:/Project/QuartusProject/test/Add.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:55 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test" E:/Project/QuartusProject/test/Add.v 
+# -- Compiling module Add
+# 
+# Top level modules:
+# 	Add
+# End time: 15:07:55 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Project/QuartusProject/test/simulation/modelsim {E:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:07:56 on Dec 21,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Project/QuartusProject/test/simulation/modelsim" E:/Project/QuartusProject/test/simulation/modelsim/SingleCycleCPU.vt 
+# -- Compiling module SingleCycleCPU_vlg_tst
+# 
+# Top level modules:
+# 	SingleCycleCPU_vlg_tst
+# End time: 15:07:56 on Dec 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  SingleCycleCPU_vlg_tst
+# vsim -gui "+altera" -l msim_transcript -do "SingleCycleCPU_run_msim_rtl_verilog.do" 
+# Start time: 15:07:56 on Dec 21,2024
+# Loading work.SingleCycleCPU_vlg_tst
+# Loading work.SingleCycleCPU
+# Loading work.MyALU
+# Loading work.DataMem
+# Loading work.Mux2to1
+# Loading work.InstructionMem
+# Loading work.EnterInteger
+# Loading work.EnterExtend
+# Loading work.Output
+# Loading work.ControlUnit
+# Loading work.Mux2to1_5
+# Loading work.Extend
+# Loading work.Add
+# Loading work.ShiftLeft2
+# Loading work.myPC
+# Loading work.InstructionCut
+# Loading work.RegFile
+# ** Warning: (vsim-3017) E:/Project/QuartusProject/test/SingleCycleCPU.v(109): [TFMPC] - Too few port connections. Expected 12, found 11.
+# 
+#         Region: /SingleCycleCPU_vlg_tst/i1/ControlUnitInst
+# ** Warning: (vsim-3722) E:/Project/QuartusProject/test/SingleCycleCPU.v(109): [TFMPC] - Missing connection for port 'jump'.
+# 
+# ** Warning: (vsim-3017) E:/Project/QuartusProject/test/SingleCycleCPU.v(179): [TFMPC] - Too few port connections. Expected 10, found 9.
+# 
+#         Region: /SingleCycleCPU_vlg_tst/i1/InstructionParser
+# ** Warning: (vsim-3722) E:/Project/QuartusProject/test/SingleCycleCPU.v(179): [TFMPC] - Missing connection for port 'ADDR'.
+# 
+# ** Warning: (vsim-3015) E:/Project/QuartusProject/test/SingleCycleCPU.v(192): [PCDPC] - Port size (32) does not match connection size (1) for port 'outputReg3'. The port definition is at: E:/Project/QuartusProject/test/RegFile.v(12).
+# 
+#         Region: /SingleCycleCPU_vlg_tst/i1/RegisterFile
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: muc  Hostname: 512-1  ProcessID: 14608
+# 
+#           Attempting to use alternate WLF file "./wlftywgjmk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftywgjmk
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ns
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 15:08:57 on Dec 21,2024, Elapsed time: 0:01:01
+# Errors: 4, Warnings: 8

@@ -1,0 +1,9 @@
+
+State Machine - |MultiCycleCPU|ControlUnit:control_unit|state
+Name state.HALT state.WB state.MEM state.EXE state.ID state.IF 
+state.IF 0 0 0 0 0 0 
+state.ID 0 0 0 0 1 1 
+state.EXE 0 0 0 1 0 1 
+state.MEM 0 0 1 0 0 1 
+state.WB 0 1 0 0 0 1 
+state.HALT 1 0 0 0 0 1 

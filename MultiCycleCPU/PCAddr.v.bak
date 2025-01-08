@@ -1,0 +1,52 @@
+// PC地址生成模块，用于控制程序计数器（PC）在不同操作下的跳转地址
+module PCAddressCalculator(
+    input CLK,                // 时钟信号
+    input [2:0] PCSrc,        // PC地址选择信号（3位，用于选择跳转方式）
+    input [31:0] immediate,   // 分支时的偏移量（用于BEQ）
+    input [25:0] addr,        // 跳转指令的目标地址（用于J类型指令）
+    input [31:0] curPC,       // 当前程序计数器值
+    output reg [31:0] nextPC  // 下一个程序计数器值
+);
+
+    reg [31:0] stayPC;        // 记录中断时当前指令地址
+
+    // 初始化模块，设置nextPC初始值为0
+    initial begin
+        nextPC <= 0;
+    end
+
+    // 在时钟的下降沿触发，计算下一个PC地址
+    always @(negedge CLK) 
+    begin
+        // 当PCSrc为0时，不跳转，保持当前PC值
+        if (PCSrc == 0) 
+            nextPC <= curPC;  // 不跳转，保持当前PC
+
+        // 当PCSrc为1时，执行bne（Branch Not Equal）操作
+        // BEQ指令的目标地址是当前PC加上立即数（immediate）乘以4（字节对齐）
+        else if (PCSrc == 1) 
+            nextPC <= curPC + immediate * 4;  // 跳转到当前PC+偏移地址
+
+        // 以下两行被注释掉了，表示可能用于未来的扩展
+        // 1. 当PCSrc为2时，执行J类型指令（跳转指令），根据PC+4的高4位和目标地址拼接成新的跳转地址
+        // 2. 用于jr（Jump Register）操作，计算跳转地址（根据当前寄存器值进行跳转）
+
+        // else if (PCSrc == 2) 
+        //     nextPC = {curPC[31:28], addr[25:0], 2'b00};  // 计算跳转地址：当前PC的高4位 + 目标地址 + 低2位补0
+
+        // 3. 中断处理，当PCSrc为3时，保存当前PC地址，并将nextPC设置为一个特定的中断地址
+        else if (PCSrc == 3) begin
+            stayPC <= curPC;          // 保存当前PC地址
+            nextPC <= 44;             // 设置中断时的跳转地址为44
+        end
+
+        // 4. 关中断操作，当PCSrc为4时，恢复之前保存的PC地址
+        else if (PCSrc == 4) begin
+            nextPC <= stayPC;        // 恢复之前保存的PC地址
+        end
+        
+        // 其他情况可扩展，例如支持跳转寄存器等（此处被注释掉）
+        // else if (PCSrc == 3) 
+        //     nextPC = ReadData2 + 4;  // 根据跳转寄存器（JR）计算下一个PC地址
+    end
+endmodule

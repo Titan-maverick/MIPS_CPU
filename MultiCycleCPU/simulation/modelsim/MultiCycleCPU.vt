@@ -1,0 +1,60 @@
+`timescale 1 ps/ 1 ps
+module MultiCycleCPU_vlg_tst();
+
+
+reg clk_1;
+reg reset;
+reg enable;
+reg halt_signal;
+reg [3:0] input_signal;
+
+// wires
+wire [2:0] current_state;                                            
+wire [6:0]  display_out_1;
+wire [6:0]  display_out_2;
+wire [6:0]  display_out_3;
+wire [6:0]  display_out_4;
+wire [6:0]  display_out_5;
+wire [6:0]  display_out_6;
+wire [6:0]  display_out_7;
+wire [6:0]  display_out_8;
+wire [31:0]  computation_result;
+                      
+MultiCycleCPU i1 (
+
+	.clk_1(clk_1),
+	.reset(reset),
+	.enable(enable),
+	.halt_signal(halt_signal),
+	.current_state(current_state),
+	.display_out_1(display_out_1),
+	.display_out_2(display_out_2),
+	.display_out_3(display_out_3),
+	.display_out_4(display_out_4),
+	.display_out_5(display_out_5),
+	.display_out_6(display_out_6),
+	.display_out_7(display_out_7),
+	.display_out_8(display_out_8),
+	.computation_result(computation_result),
+	.input_signal(input_signal)
+);
+initial                                                
+begin
+   
+halt_signal=0;                                               
+clk_1=0;
+reset=1;
+enable=1;
+#1 reset=0;
+#3 enable=0;
+#5 reset=1;
+      input_signal=4'b0110;
+#70 halt_signal=1;
+#1 halt_signal=0;  
+end
+always
+begin
+#1 clk_1=~clk_1; 
+end                                                                                 
+endmodule
+

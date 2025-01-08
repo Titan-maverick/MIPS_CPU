@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -15.900
+TNS   : -1329.489
+
+Type  : Slow 1100mV 85C Model Setup 'myPC:ProgramCounter|curPc[2]'
+Slack : -10.671
+TNS   : -42.415
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -8.041
+TNS   : -565.940
+
+Type  : Slow 1100mV 85C Model Hold 'myPC:ProgramCounter|curPc[2]'
+Slack : -0.159
+TNS   : -0.159
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -63.562
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'myPC:ProgramCounter|curPc[2]'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -16.103
+TNS   : -1313.480
+
+Type  : Slow 1100mV 0C Model Setup 'myPC:ProgramCounter|curPc[2]'
+Slack : -10.542
+TNS   : -41.955
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -7.866
+TNS   : -564.121
+
+Type  : Slow 1100mV 0C Model Hold 'myPC:ProgramCounter|curPc[2]'
+Slack : -0.072
+TNS   : -0.072
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.394
+TNS   : -59.251
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'myPC:ProgramCounter|curPc[2]'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -9.231
+TNS   : -764.988
+
+Type  : Fast 1100mV 85C Model Setup 'myPC:ProgramCounter|curPc[2]'
+Slack : -5.615
+TNS   : -22.095
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -4.474
+TNS   : -307.874
+
+Type  : Fast 1100mV 85C Model Hold 'myPC:ProgramCounter|curPc[2]'
+Slack : -0.269
+TNS   : -0.375
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.285
+TNS   : -31.139
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'myPC:ProgramCounter|curPc[2]'
+Slack : 0.216
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -8.163
+TNS   : -681.303
+
+Type  : Fast 1100mV 0C Model Setup 'myPC:ProgramCounter|curPc[2]'
+Slack : -5.385
+TNS   : -21.224
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -4.354
+TNS   : -311.809
+
+Type  : Fast 1100mV 0C Model Hold 'myPC:ProgramCounter|curPc[2]'
+Slack : -0.196
+TNS   : -0.233
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.278
+TNS   : -30.372
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'myPC:ProgramCounter|curPc[2]'
+Slack : 0.267
+TNS   : 0.000
+
+------------------------------------------------------------
